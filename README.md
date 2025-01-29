@@ -16,13 +16,13 @@ A powerful, lightweight, and customizable analytics tracking solution for React 
 
 ```bash
 # Using npm
-npm install react-analytics-tracker
+npm install react-analytics-trackers
 
 # Using yarn
-yarn add react-analytics-tracker
+yarn add react-analytics-trackers
 
 # Using pnpm
-pnpm add react-analytics-tracker
+pnpm add react-analytics-trackers
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ pnpm add react-analytics-tracker
 ### Basic Setup
 
 ```tsx
-import { AnalyticsProvider } from "react-analytics-tracker";
+import { AnalyticsProvider } from "react-analytics-trackers";
 
 function App() {
   const config = {
@@ -50,7 +50,7 @@ function App() {
 ### Tracking Custom Events
 
 ```tsx
-import { useAnalytics } from "react-analytics-tracker";
+import { useAnalytics } from "react-analytics-trackers";
 
 function MyComponent() {
   const { trackEvent } = useAnalytics();
@@ -119,7 +119,7 @@ When `debug` is enabled in the config:
 ## Example Implementation
 
 ```tsx
-import { AnalyticsProvider, useAnalytics } from "react-analytics-tracker";
+import { AnalyticsProvider, useAnalytics } from "react-analytics-trackers";
 
 // Configure the provider
 const config = {

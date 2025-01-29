@@ -127,7 +127,7 @@ A lightweight, powerful analytics solution for React applications that helps you
 ### 1. Installation
 
 \`\`\`bash
-npm install react-analytics-tracker
+npm install react-analytics-trackers
 \`\`\`
 
 ### 2. Setup Provider
@@ -135,7 +135,7 @@ npm install react-analytics-tracker
 Wrap your application with \`AnalyticsProvider\`:
 
 \`\`\`tsx
-import { AnalyticsProvider } from 'react-analytics-tracker';
+import { AnalyticsProvider } from 'react-analytics-trackers';
 
 function App() {
   return (
@@ -160,7 +160,7 @@ function App() {
 Use the \`useAnalytics\` hook in your components:
 
 \`\`\`tsx
-import { useAnalytics } from 'react-analytics-tracker';
+import { useAnalytics } from 'react-analytics-trackers';
 
 function MyComponent() {
   const { trackEvent, trackPageView } = useAnalytics();
