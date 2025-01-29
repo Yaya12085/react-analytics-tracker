@@ -1,7 +1,7 @@
 {
 	"name": "react-analytics-tracker",
 	"description": "Analytics tracking solution for React applications",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Yaya Mohamed <yayamohamed883@gmail.com>",
 	"license": "MIT",
 	"keywords": [
